@@ -1,0 +1,81 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: ;
+}
+.cart-container {
+    width: 350px;
+    box-shadow: 4px 4px 8px gray;
+
+
+}
+.cart-container{
+    margin-bottom: 20px;
+}
+.card {
+    width: 300px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+    margin-bottom: 20px;
+
+}
+
+.card-img {
+    width: 100px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-btn {
+    background-color: #4CAF50;
+    /* Green background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 15px ;
+    /* Some padding */
+    text-align: center;
+    /* Center the text */
+    text-decoration: none;
+    /* Remove underline */
+    display: inline-block;
+    /* Make the button inline-block */
+    font-size: 16px;
+    /* Increase font size */
+    margin: 4px 2px;
+    /* Add some margin */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover */
+    border-radius: 10px;
+}
+.add-btn:hover{
+    background-color: #45a049; /* Darker green on hover */
+}
+.cart-info{
+    display: flex;
+    justify-content: space-around;
+    
+}
